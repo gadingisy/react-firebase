@@ -4,13 +4,13 @@
  
  // Your web app's Firebase configuration
  var firebaseConfig = {
-    apiKey: "AIzaSyAu-_muBW5T0U2fYXn-aN3n4k1Ht4GcDNQ",
-    authDomain: "react-blog-5e4b1.firebaseapp.com",
-    databaseURL: "https://react-blog-5e4b1.firebaseio.com",
-    projectId: "react-blog-5e4b1",
-    storageBucket: "react-blog-5e4b1.appspot.com",
-    messagingSenderId: "1086814228748",
-    appId: "1:1086814228748:web:f8f2073b43e9a6f1d2f929"
+    apiKey: "Isi Dengan Key Anda",
+    authDomain: "Domain Aplikasi Anda di Firebase",
+    databaseURL: "URL Database Anda",
+    projectId: "ID Aplikasi",
+    storageBucket: "Storage Bucket",
+    messagingSenderId: "messaging sender id",
+    appId: "aplikasi ID anda"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
@@ -19,4 +19,4 @@
 
   export const auth = firebase.auth();
   export const firestore = firebase.firestore
-  export default db;
+  export default db; //shorthand firebase.auth()
