@@ -1,0 +1,29 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.app_main_navigation{
+    margin-bottom:20px;
+}
+.app_container{
+
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.post_input_title{
+    margin-top:30px;
+}
+
+.post_input_container{
+    margin-bottom:30px;
+}
+
+.post_input_button{
+    float:right;
+}
+
+/*# sourceMappingURL=/ReactFirebase.9ad09f98.css.map */
